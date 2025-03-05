@@ -1,0 +1,25 @@
+{
+  "name": "jns-off",
+  "version": "1.0.0",
+  "description": "Eine preisgekrönte Website mit Fokus auf mobile Ansicht und dunklem Modus.",
+  "main": "src/js/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [
+    "mobile",
+    "dark mode",
+    "3D elements",
+    "responsive"
+  ],
+  "author": "Ihr Name",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.136.0"
+  },
+  "devDependencies": {
+    "vite": "^3.0.0"
+  }
+}

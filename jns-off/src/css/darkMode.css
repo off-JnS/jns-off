@@ -1,0 +1,51 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+
+a {
+    color: #bb86fc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3700b3;
+}
+
+.section {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.hero {
+    background: linear-gradient(135deg, #1f1f1f, #2c2c2c);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.leistung {
+    background: #1f1f1f;
+}
+
+.kontakt {
+    background: #2c2c2c;
+}
+
+.button {
+    background-color: #bb86fc;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #3700b3;
+}
