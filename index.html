@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JnS - Innovative Lösungen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="canvas-container"></div>
+
+    <header>
+        <nav>
+            <div class="logo">JnS</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#leistung">Leistung</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="section">
+            <div class="content">
+                <h1>Willkommen bei <span class="highlight">JnS</span></h1>
+                <p class="subtitle">Innovative digitale Lösungen für die Zukunft</p>
+                <div class="cta-container">
+                    <a href="#leistung" class="cta-button">Unsere Leistungen</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="leistung" class="section">
+            <div class="content">
+                <h2>Unsere <span class="highlight">Leistungen</span></h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="https://via.placeholder.com/64" alt="Web Design">
+                        </div>
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque felis a elit
+                            pulvinar, nec condimentum nulla fringilla.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="https://via.placeholder.com/64" alt="App Entwicklung">
+                        </div>
+                        <h3>App Entwicklung</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque felis a elit
+                            pulvinar, nec condimentum nulla fringilla.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="https://via.placeholder.com/64" alt="UX/UI Design">
+                        </div>
+                        <h3>UX/UI Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque felis a elit
+                            pulvinar, nec condimentum nulla fringilla.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="https://via.placeholder.com/64" alt="Beratung">
+                        </div>
+                        <h3>Beratung</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque felis a elit
+                            pulvinar, nec condimentum nulla fringilla.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontakt" class="section">
+            <div class="content">
+                <h2>Kontaktieren <span class="highlight">Sie uns</span></h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <h3>Adresse</h3>
+                            <p>Musterstraße 123<br>12345 Berlin<br>Deutschland</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Kontaktdaten</h3>
+                            <p>Email: info@jns.de<br>Telefon: +49 123 456789</p>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-Mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Nachricht</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Senden</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="copyright">© 2023 JnS. Alle Rechte vorbehalten.</div>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">FB</a>
+                <a href="#" aria-label="Twitter">TW</a>
+                <a href="#" aria-label="Instagram">IG</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
