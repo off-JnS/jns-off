@@ -1,5 +1,0 @@
-The directory for the "Poppins" font files should contain the actual font files (e.g., .woff, .woff2, .ttf). Since I cannot create actual font files, I will provide a comment indicating that this directory is intended for font files.
-
-Contents of the file: /jns-off/jns-off/src/assets/fonts/poppins
-
-<!-- This directory is intended for the font files for "Poppins". Please add the actual font files here. -->
